@@ -1,0 +1,11 @@
+def cowsay(yourText):
+    print(" "+"-"*len(yourText))
+    print("<"+yourText+">")
+    print(" "+"-"*len(yourText))
+    print("   \    ^__^")
+    print("    \  (o o)\_____")
+    print("       (___)\      )\/\ ")
+    print("            ||----w|")
+    print("           _||    ||")
+yourText=input("Entre du texte:")
+cowsay(yourText)
